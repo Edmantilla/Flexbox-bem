@@ -100,3 +100,15 @@ body{
         cursor: pointer;
     }
 
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #f0e3e4 ;
+    }
+
+    .galeria__imagenes{
+        width: 30%;
+        margin: 10px;
+        object-fit: cover;
+    }
