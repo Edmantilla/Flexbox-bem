@@ -15,7 +15,7 @@
             <li><a class="Navbar__items-a" href="#">Contactos</a></li>
         </ul>
     </section>
-    < class="contenedor">
+    <div class="contenedor">
         <div class="card">
             <img class="card__imagen" src="/imagenes/mercedez benz.png" alt="imagen de la targeta">
                 <div class="card__cuerpo">
@@ -25,6 +25,7 @@
                     <a href="#" class="card__cuerpo-botonb">enviar</a>
                 </div>
         </div>
+    </div>
     <div class="galeria">
         <img class="galeria__imagenes" src="/imagenes/148669-lago-naturaleza-las_formaciones_montanosas-fiordo-paisaje_natural-3840x2160.jpg" alt="Imagen 1">
         <img class="galeria__imagenes" src="/imagenes/155701-motocicleta-harley_davidson-caf_racer-neumatico-rueda-3840x2160.jpg" alt="imagen 2">
@@ -35,6 +36,35 @@
         <img class="galeria__imagenes" src="/imagenes/174631-motocicleta-ktm-ktm_duque_200_2020-ktm_rc_390-el_deporte_de_la_bicicleta-3840x2160.jpg" alt="imagen 7">
         <img class="galeria__imagenes" src="/imagenes/177292-superman-darkseid-superheroe-dc_comics-ambiente-3840x2160.jpg" alt="Imagen 8">
         <img class="galeria__imagenes" src="/imagenes/img1.wallspic.com-aullidos_castillo_en_movimiento-anime-museo_ghibli-paisaje_natural-arte-3840x2160.jpg" alt="imagen 8">
+    </div>
+
+    <div class="formulario">
+        <h1 class="formulario__titulo">Formulario de contacto</h1>
+        <p class="formulario__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus consequuntur quidem vitae iure error quod ab odit praesentium sequi, provident odio, sit magni excepturi iste. Quam repudiandae quisquam adipisci illo.</p>
+
+        <form class="formulario__contacto">
+            <div class="formulario__datos">
+                <label for="name" class="formulario__datos-label">Nombre</label>
+                <input type="text" id="name" class="formulario__datos-input" placeholder="Primer nombre" required>
+                <input type="text" id="name" class="formulario__datos-input" placeholder="Segundo nombre" required>
+            </div>
+
+            <div class="formulario__datos">
+                <label for="email" class="formulario__datos-label">Correo electrónico</label>
+                <input type="email" id="email" class="formulario__datos-input" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="formulario__datos">
+                <label for="message" class="formulario__datos-label">Mensaje</label>
+                <textarea id="message" class="formulario__datos-textarea" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+            <div class="formulario__datos">
+                <label for="numero" class="formulario__datos-label">Numero telefonico</label>
+                <input type="number" id="numero" class="formulario__datos-input" placeholder="Digite su numero telefonico" required>
+            </div>
+                <button type="submit" class="formulario__datos-botton">Enviar mensaje</button>
+        </form>
+        
     </div>
 
 </body>
