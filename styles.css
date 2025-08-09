@@ -198,3 +198,84 @@ body{
     .lista__tareas-items:hover {
       background-color: #0056b3;
     }
+
+      .testimonial {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      max-width: 500px;
+      margin: 20px auto;
+      padding: 16px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+    }
+
+    .testimonial__avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    .testimonial__contenedor {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .testimonial__nombre {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .testimonial__texto {
+      font-size: 14px;
+      color: #555;
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between; /* Distribución equitativa */
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer__columna {
+      flex: 1; /* Cada columna ocupa el mismo espacio */
+      padding: 0 10px;
+    }
+
+    .footer__titulo {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .footer__lista {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer__item {
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .footer__item a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer__item a:hover {
+      color: #00bfff;
+    }
