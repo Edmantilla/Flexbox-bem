@@ -279,3 +279,71 @@ body{
     .footer__item a:hover {
       color: #00bfff;
     }
+
+     .precios {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      flex-wrap: wrap; /* Para que se adapte en móviles */
+    }
+
+    .precios__carta {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      flex: 1 1 250px; /* Crece, encoge y mínimo 250px */
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .precios__carta:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .pricios__titulo {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .precios__precio {
+      font-size: 28px;
+      color: #007bff;
+      margin-bottom: 15px;
+    }
+
+    .precios__asignacion {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .precios__asignacion li {
+      margin-bottom: 8px;
+    }
+
+    .precios__boton {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+
+    .precios__boton:hover {
+      background-color: #0056b3;
+    }
