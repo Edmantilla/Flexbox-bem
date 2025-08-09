@@ -6,6 +6,7 @@ body{
     background-color: #EDDFE0;
 }
 .Navbar{
+    border-radius: 8px;
     margin: 10px;
     background-color: aqua;
     width: 99%;
@@ -136,6 +137,7 @@ body{
     .section-header {
         margin: 10px;
         background-color: white;
+        border-radius: 8px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -162,4 +164,37 @@ body{
       font-size: 20px;
       font-weight: bold;
       color: #333;
+    }
+
+     .lista__tareas {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centrado vertical */
+      list-style: none;
+      padding: 0px;
+      margin: 10px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .lista__tareas-titulo{
+        margin: 20px;
+        color: red;
+    }
+
+    .lista__tareas-items {
+        margin: 5px;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+      min-width: 100px;
+      transition: background 0.3s ease;
+    }
+
+    .lista__tareas-items:hover {
+      background-color: #0056b3;
     }
